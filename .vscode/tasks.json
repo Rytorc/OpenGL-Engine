@@ -11,7 +11,10 @@
                 "-I${workspaceFolder}/src/*/${fileBasenameNoExtension}.h",
                 "-L${workspaceFolder}/lib",
                 "${workspaceFolder}/src/*.cpp",
+
                 "${workspaceFolder}/src/Window/*.cpp",
+                "${workspaceFolder}/src/Shader/*.cpp",
+                
                 "${workspaceFolder}/src/glad.c",
                 "-lglfw3dll",
                 "-o",
