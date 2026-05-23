@@ -1,5 +1,8 @@
+#ifndef WINDOW_H
+#define WINDOW_H
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include "../Shader/Shader.h"
 
 class Window 
 {
@@ -18,4 +21,7 @@ class Window
     private:
         int width = 800;
         int height = 600;
+        Shader* m_Shader;
 };
+
+#endif
